@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Нёрдс</title>
+	<style>/*
+ * Bootstrap v2.2.1
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+
+ .clearfix {
+ 	*zoom: 1;
+ }
+ .clearfix:before,
+ .clearfix:after {
+ 	display: table;
+ 	content: "";
+ 	line-height: 0;
+ }
+ .clearfix:after {
+ 	clear: both;
+ }
+ html {
+ 	font-size: 100%;
+ 	-webkit-text-size-adjust: 100%;
+ 	-ms-text-size-adjust: 100%;
+ }
+ a:active{
+ 	color: #999;
+ }
+ a:focus {
+ 	outline: thin dotted #333;
+ 	outline: 5px auto -webkit-focus-ring-color;
+ 	outline-offset: -2px;
+
+ }
+ a:hover {
+ 	color: #ff6666;
+ 	text-decoration: none;
+ }
+ a {
+ 	color:#000;
+ 	display: block;
+ 	
+ }
+ a:active {
+ 	color: #999;
+ 	text-decoration: none;
+ }
+ a:link{
+ 	text-decoration: none;
+ }
+ 
+
+ button::-moz-focus-inner,
+ input::-moz-focus-inner {
+ 	padding: 0;
+ 	border: 0;
+ }
+
+ .row {
+ 	margin-left: -20px;
+ 	*zoom: 1;
+ }
+ .row:before,
+ .row:after {
+ 	display: table;
+ 	content: "";
+ 	line-height: 0;
+ }
+ .row:after {
+ 	clear: both;
+ }
+ [class*="span"] {
+ 	float: left;
+ 	min-height: 1px;
+ 	margin-left: 20px;
+ }
+ .container,
+ .navbar-static-top .container,
+ .navbar-fixed-top .container,
+ .navbar-fixed-bottom .container {
+ 	width: 940px;
+ }
+ .span12 {
+ 	width: 940px;
+ }
+ .span11 {
+ 	width: 860px;
+ }
+ .span10 {
+ 	width: 780px;
+ }
+ .span9 {
+ 	width: 700px;
+ }
+ .span8 {
+ 	width: 620px;
+ }
+ .span7 {
+ 	width: 540px;
+ }
+ .span6 {
+ 	width: 460px;
+ }
+ .span5 {
+ 	width: 380px;
+ }
+ .span4 {
+ 	width: 300px;
+ }
+ .span3 {
+ 	width: 220px;
+ }
+ .span2 {
+ 	width: 140px;
+ }
+ .span1 {
+ 	width: 60px;
+ }
+ .offset-2 {
+ 	margin-right:160px;
+ }
+ .offset-1{
+ 	margin-right:80px;
+ }
+ .offset-left-2{
+ 	margin-left: 160px;
+ }
+ .offset-left-1{
+ 	margin-left: 80px;
+ }
+ [class*="span"].pull-right,
+ .row-fluid [class*="span"].pull-right {
+ 	float: right;
+ }
+ .container {
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	*zoom: 1;
+ }
+ .container:before,
+ .container:after {
+ 	display: table;
+ 	content: "";
+ 	line-height: 0;
+ }
+ .container:after {
+ 	clear: both;
+ }
+
+
+ body {
+ 	margin: 0;
+ 	padding: 0;
+ }
+ .header {
+ 	position: relative;
+ 	padding-top: 20px;
+ 	margin-bottom: 80px;
+ 	background-color: #fff;
+ 	z-index: 10;
+ 	background-color: #EEEEEE;
+ }
+ 
+ .the-icons {
+ 	font-size: 14px;
+ 	line-height: 24px;
+ }
+ 
+
+</style>
+<link rel="stylesheet" href="css/second-page.css">
+<link rel="stylesheet" href="css/symbols-nerds.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/symbols-nerds-ie7.css"><![endif]-->
+<link rel="stylesheet" href="css/slider.css">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+	<!--Header-->
+	<header class="header">
+		<div class="container">
+			<div class="header-top">
+				<div class="row">
+					<!--Logo-->
+					<a href="">
+						<img src="img/header-logo.png" alt="logo" class="span2">
+					</a>
+					<div  class="the-icons header-top__cart pull-right span2">
+						<a class="cart" href="javascript:void(0)"><i class="icon-basket"></i> Корзина</a>
+					</div>
+					<!--menu-->
+					<nav class="header-top__menu span6 pull-right">
+						<ul id="menu">
+							<li>
+								<a href="index.html">Студия</a>
+								<div ></div>
+							</li>
+							<li>
+								<a href="javascript:void(0)">Клиенты</a>
+								<div ></div>
+							</li>
+							<li>
+								<a href="javascript:void(0)">Магазин</a>
+								<div class="second-page-active"></div>
+							</li>
+							<li>
+								<a href="javascript:void(0)">Контакты</a>
+								<div></div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="row">
+					<div class="welcome span11">
+						<p>ДОБРО ПОЖАЛОВАТЬ В МАГАЗИН<br>
+							ГОТОВЫХ МАКЕТОВ</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--main-->
+		<div class="container">
+			<div class="row">
+				<div class="shop-catalog span12">
+					<div class="row">
+						<div class="catalog-filters span3">
+							<form name="custom" class="catalog-filter" action="anotherpage.html">
+								<div class="catalog-filter--block">
+									<h2 class="filter-title">Стоимость:</h2>
+									<div class="range-controls">
+										<div class="scale">
+											<div class="bar"></div>
+										</div>
+										<div class="toggle min-toggle"></div>
+										<div class="toggle max-toggle"></div>
+									</div>
+									<div class="price-controls">
+										<label >
+											от
+											<input type="text" class="min-price" value="0">	
+										</label>
+										<div class="max-price--absolute">
+											<label >
+												до
+												<input type="text" class="max-price" value="15000">
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="catalog-grid">
+									<h2 class="filter-title">Сетка:</h2>
+
+									<input type="radio" name="grid" data-choice="all" id="all" checked />
+									<label for="all">Все</label>
+
+									<input type="radio" name="grid" data-choice="adaptive" id="adaptive" />
+									<label for="adaptive">Адаптивная</label>
+
+									<input type="radio" name="grid" data-choice="fixed" id="fixed" />
+									<label for="fixed">Фиксированая</label>
+
+									<input type="radio" name="grid" data-choice="fluid" id="fluid" />
+									<label for="fluid">Резиновая</label>
+									<br>
+									<h2 class="filter-title">Особенности:</h2>
+
+									<input value="slider" type="checkbox" name="checkbox" id="slider-field" data-choice="slider"  />
+									<label for="slider-field">Слайдер</label>
+
+									<input value="features" type="checkbox" name="checkbox" id="features-field" data-choice="features" />
+									<label for="features-field">Блок преимуществ</label>
+
+									<input value="news" type="checkbox" name="checkbox" id="news-field" data-choice="news" />
+									<label for="news-field">Новости</label>
+
+									<input value="gallery" type="checkbox" name="checkbox" id="gallery-field" data-choice="gallery" />
+									<label for="gallery-field">Галерея</label>
+
+									<input value="cart" type="checkbox" name="checkbox" id="cart-field" data-choice="cart" />
+									<label for="cart-field">Корзина</label>
+
+								</div>
+								<noscript><input class="button grey" type="submit" value="Показать"></noscript>
+							</form>
+						</div>
+						<div class="catalog-content span8 offset-left-1">
+							<ul>
+								<li>Сортировать:</li>
+								<li><a class="catalog-filter-active" href="javascript:void(0)"><span>По цене</span></a></li>
+								<li><a href="javascript:void(0)"><span>По типу</span></a></li>
+								<li><a href="javascript:void(0)"><span>По функционалу</span></a></li>
+								<li>
+									<i class="icon-up-dir"></i>
+									<i class="icon-down-dir"></i>
+								</li>
+							</ul>
+							<div class="catalog-items" id="all-items">
+								<div class="catalog-item" type="all adaptive slider features news gallery cart"  >
+									<div class="item-image">
+										<img src="img/item1.jpg" alt>
+									</div>
+									<div class="item-action">
+
+										<h3 class="item-title">Aviator</h3>
+										<p class="item-price">Интернет-магазин с личным кабинетом</p>
+										<a href="javascript:void(0)" id="btn-item" class="button-small red">12 000 Р.</a>
+									</div>
+								</div>
+								<div class="catalog-item" type="all fixed slider news cart" >
+									<div class="item-image">
+										<img src="img/item2.jpg" alt>
+									</div>
+									<div class="item-action">
+										<h3 class="item-title">Sunset</h3>
+										<p class="item-price">Сайт визитка с личным кабинетом</p>
+										<a href="javascript:void(0)" id="btn-item" class="button-small red">10 000 Р.</a>
+									</div>
+								</div>
+								<div class="catalog-item" type="all fluid features gallery" >
+									<div class="item-image">
+										<img src="img/item3.jpg" alt>
+									</div>
+									<div class="item-action">
+										<h3 class="item-title">Forte</h3>
+										<p class="item-price">Интернет-магазин с личным кабинетом</p>
+										<a href="javascript:void(0)" id="btn-item" class="button-small red">10 000 Р.</a>
+									</div>
+								</div>
+								<div class="catalog-item" type="all adaptive gallery cart" >
+									<div class="item-image">
+										<img src="img/item4.jpg" alt>
+									</div>
+									<div class="item-action">
+										<h3 class="item-title">Marquee</h3>
+										<p class="item-price">Интернет-магазин с личным кабинетом</p>
+										<a href="javascript:void(0)" id="btn-item" class="button-small red">12 000 Р.</a>
+									</div>
+								</div>
+								<div class="catalog-item" type="all fixed gallery cart features slider" >
+									<div class="item-image">
+										<img src="img/item5.jpg" alt>
+									</div>
+									<div class="item-action">
+										<h3 class="item-title">Avenue</h3>
+										<p class="item-price">Интернет-магазин с личным кабинетом</p>
+										<a href="javascript:void(0)" id="btn-item" class="button-small red">12 000 Р.</a>
+									</div>
+								</div>
+								<div class="catalog-item" type="all fluid news cart" >
+									<div class="item-image">
+										<img src="img/item6.jpg" alt>
+									</div>
+									<div class="item-action">
+										<h3 class="item-title">Dovetail</h3>
+										<p class="item-price">Интернет-магазин с личным кабинетом</p>
+										<a href="javascript:void(0)" id="btn-item" class="button-small red">10 000 Р.</a>
+									</div>
+								</div>
+							</div>
+							<div class="catalog-paginator">
+								<a class="active grey" href="javascript:void(0)">1</a>
+								<a class=" grey" href="javascript:void(0)">2</a>
+								<a class=" grey" href="javascript:void(0)">3</a>
+								<a class="next grey" href="javascript:void(0)">Следущая</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--write-us-->
+		<div id="window" class="notActive">
+			<div id="close" class="close red"><i class="fa fa-times" aria-hidden="true"></i></div>
+			<form action="">
+				<div>
+					<b>Ваше имя:</b><br>
+					<input class="input_small" type="text" placeholder="Представьтись пожалуйста">
+				</div>
+				<div>
+					<b>Ваш e-mail:</b><br>
+					<input class="input_small" type="text" placeholder="Для отправки ответа">
+				</div>
+				<div>
+					<b>Текст письма:</b><br>
+					<textarea class="input_big" type="text" placeholder="В свободной форме"></textarea>
+				</div>
+				<div id="close1" class="button red">Отправить</div>
+				<div id="close2" class="button grey">Отмена</div>
+			</form>
+		</div>
+		<!--Map-->
+		<div class="map ">
+			<div class="map-adds">
+				<p><strong>NЁRDS</strong> DESIGN STUDIO</p>
+				<p>350000, Краснодар,
+					<br>ул. Головатого, 100</p>
+					<p>тел. +7 (861) 275-75-75</p>
+					<div id="write-us" class="button-small red">Напишите нам</div>
+				</div>
+			</div>
+			<footer class="container">
+				<div class="row">
+					<div class="social span4">
+						<div class="row">
+							<a class="span1 the-icons social-red" href="https://www.vk.com"><i class="icon-vk"></i></a>
+							<a class="span1 the-icons social-red" href="https://www.facebook.com"><i class="icon-facebook"></i></a>
+							<a class="span1 the-icons social-red" href="https://www.instagram.com/?hl=en"><i class="icon-instagramm"></i></a>
+						</div>
+					</div>
+					<div class="goodluck">
+						<span>Давайте дружить, это выгодно!</span>
+						<small>Скидка 10% для друзей из социальных сетей.</small>
+					</div>
+				</div>
+			</footer>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+			<script src="js/window.js"></script>
+			<script src="js/filters.js"></script>
+		</body>
+		</html>

@@ -1,0 +1,22 @@
+.defaultSlide{
+	position:relative;
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.controlers{
+	position:absolute;
+	z-index:10;
+	bottom:100px;
+	right:500px;
+}
+input{
+	background-color: #fff;
+	cursor:pointer;
+}
+#active{
+	display:block;
+}
+#notActive{
+	display:none;
+}
